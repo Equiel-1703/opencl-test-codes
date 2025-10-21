@@ -1,0 +1,9 @@
+#pragma once
+
+#define OPENCL_VERSION 200 // We want to use OpenCL 2.0
+
+#define CL_TARGET_OPENCL_VERSION OPENCL_VERSION
+#define CL_HPP_TARGET_OPENCL_VERSION OPENCL_VERSION
+#define CL_HPP_ENABLE_EXCEPTIONS
+
+#include <CL/opencl.hpp>
